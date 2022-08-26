@@ -4,6 +4,7 @@ import 'package:flutter_catalog/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
+  // ignore: prefer_const_constructors
   runApp(MyApp());
 }
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
-        fontFamily: GoogleFonts.lato().fontFamily,
+        fontFamily: GoogleFonts.lato().fontFamily ,
       ),
       //  debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(
